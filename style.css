@@ -1,0 +1,131 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: 0;
+}
+
+html{
+    font-size: 10px;
+}
+
+body{
+    font-size: 1.6rem;
+    font-family: 'Kumbh Sans', sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-color: hsl(185, 75%, 39%);
+    overflow: hidden;
+}
+
+
+.card-ctr{
+    width: 375px;
+    border-radius: 15px;
+    background-color: #fff;
+    overflow: hidden;
+    box-shadow: 0 10px 20px rgba(0,0,0,0.16), 0 10px 20px rgba(0,0,0,0.23);
+}
+.card-first img{
+    width: 100%;
+}
+.top-pattern{
+    position: absolute;
+    
+    top: -70%;
+    left: -70%;
+    transform: translatex(70%);
+    z-index: -1;
+}
+
+.bottom-pattern{
+    position: absolute;
+    bottom: -70%;
+    right: -70%;
+    transform: translatex(-70%);
+    z-index: -1;
+
+
+}
+
+.card-second{
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.card-second-img-ctr{
+    
+    margin-bottom: 60px;
+    position: relative;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+}
+
+.card-second-img-ctr img{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    border-radius: 50%;
+    border: 5px solid #fff;
+}
+
+.name{
+    font-weight: 700;
+    font-size: 21px;
+    color: hsl(229, 23%, 23%);
+    margin-bottom: 0;
+}
+
+.age{
+    font-weight: 300;
+    font-size: 21px;
+    color: hsl(227, 10%, 46%);
+}
+
+.city{
+    font-size: 16px;
+    font-weight: 400;
+    color: hsl(227, 10%, 46%);
+    margin-bottom: 20px;
+}
+
+
+.hr{
+    width: 100%;
+    border-top: 1px solid hsl(227, 10%, 46%);
+    margin-bottom: 30px;
+}
+
+.status-ctr{
+    width: 100%;
+    display: flex;
+    justify-content:space-evenly;
+    align-items: center;
+    padding-bottom: 30px;
+}
+
+.status{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.count{
+    font-weight: 700;
+    font-size: 21px;
+    color: hsl(229, 23%, 23%);
+}
+
+.title{
+    font-size: 12px;
+    font-weight: 400;
+    color: hsl(227, 10%, 46%);
+    letter-spacing: 2px;
+}
